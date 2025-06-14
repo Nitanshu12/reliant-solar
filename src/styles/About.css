@@ -1,0 +1,294 @@
+/* About Page Hero Section */
+.about-hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 340px;
+    background: #222;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  .about-hero-bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  .about-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 3.5rem 2rem 2.5rem 5vw;
+    color: #111;
+    max-width: 900px;
+  }
+  .about-hero-title {
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color: #111;
+  }
+  .about-hero-subtitle {
+    font-size: 1.35rem;
+    color: #222;
+    font-weight: 400;
+    max-width: 700px;
+  }
+  
+  @media (max-width: 900px) {
+    .about-hero-content {
+      padding: 2.5rem 1rem 1.5rem 1rem;
+    }
+    .about-hero-title {
+      font-size: 1.7rem;
+    }
+    .about-hero-subtitle {
+      font-size: 1.05rem;
+    }
+  }
+  @media (max-width: 600px) {
+    .about-hero-section {
+      min-height: 180px;
+    }
+    .about-hero-content {
+      padding: 1.2rem 0.5rem 1rem 0.5rem;
+    }
+    .about-hero-title {
+      font-size: 1.1rem;
+    }
+    .about-hero-subtitle {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Mission & Vision Section */
+  .mv-section {
+    background: #fff;
+    width: 100%;
+    padding: 3.5rem 0 3rem 0;
+  }
+  .mv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+  }
+  .mv-card {
+    background: #F6B445;
+    color: #fff;
+    border-radius: 0;
+    flex: 1 1 340px;
+    min-width: 280px;
+    max-width: 600px;
+    padding: 2.2rem 2rem 1.7rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    position: relative;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    animation: fadeInUp 1s cubic-bezier(.23,1.01,.32,1) both;
+  }
+  .mv-circle {
+    width: 40px;
+    height: 40px;
+    background: #0d5c74;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+    margin-left: 0.1rem;
+  }
+  .mv-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+    color: #fff;
+  }
+  .mv-desc {
+    font-size: 1.08rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  @media (max-width: 900px) {
+    .mv-container {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .mv-card {
+      max-width: 95vw;
+      min-width: 0;
+      width: 100%;
+      align-items: flex-start;
+    }
+    .mv-title {
+      font-size: 1.1rem;
+    }
+    .mv-desc {
+      font-size: 0.98rem;
+    }
+  }
+  @media (max-width: 600px) {
+    .mv-section {
+      padding: 2rem 0 1.5rem 0;
+    }
+    .mv-container {
+      padding: 0 0.5rem;
+      gap: 1.2rem;
+    }
+    .mv-card {
+      padding: 1.2rem 0.7rem 1rem 0.7rem;
+      margin-bottom: 1rem;
+    }
+    .mv-circle {
+      width: 28px;
+      height: 28px;
+      margin-bottom: 0.7rem;
+    }
+  }
+  
+  /* Leadership Team Section */
+  .team-section {
+    background: #fff;
+    width: 100%;
+    padding: 3.5rem 0 3rem 0;
+  }
+  .team-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+  .team-title {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    color: #111;
+  }
+  .team-subtitle {
+    font-size: 1.18rem;
+    color: #222;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+  .team-card {
+    background: #0d5c74;
+    color: #fff;
+    border-radius: 0;
+    flex: 1 1 300px;
+    min-width: 260px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.2rem 1.5rem 2rem 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s, transform 0.2s;
+    animation: fadeInUp 1s cubic-bezier(.23,1.01,.32,1) both;
+  }
+  .team-card:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+    transform: translateY(-6px) scale(1.03);
+  }
+  .team-avatar-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+  }
+  .team-avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+  .team-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #F6B445;
+    margin-bottom: 0.3rem;
+  }
+  .team-role {
+    font-size: 1.08rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .team-exp {
+    font-size: 1.02rem;
+    color: #fff;
+    font-weight: 400;
+  }
+  @media (max-width: 900px) {
+    .team-cards {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .team-card {
+      max-width: 95vw;
+      min-width: 0;
+      width: 100%;
+    }
+    .team-title {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 600px) {
+    .team-section {
+      padding: 2rem 0 1.5rem 0;
+    }
+    .team-container {
+      padding: 0 0.5rem;
+    }
+    .team-title {
+      font-size: 1.1rem;
+    }
+    .team-subtitle {
+      font-size: 0.98rem;
+      margin-bottom: 1.1rem;
+    }
+    .team-card {
+      padding: 1.2rem 0.7rem 1rem 0.7rem;
+    }
+    .team-avatar-wrapper {
+      width: 80px;
+      height: 80px;
+    }
+    .team-avatar {
+      width: 70px;
+      height: 70px;
+    }
+    .team-name {
+      font-size: 0.98rem;
+    }
+    .team-role {
+      font-size: 0.92rem;
+    }
+    .team-exp {
+      font-size: 0.95rem;
+    }
+  } 

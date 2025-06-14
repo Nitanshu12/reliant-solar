@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; /* Equal to navbar height */
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
