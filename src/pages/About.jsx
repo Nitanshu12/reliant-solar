@@ -1,6 +1,8 @@
 import React from 'react';
 import { useInView } from '../hooks/useInView';
-
+import Atharva from '../assets/Athrava.jpeg';
+import Navin from '../assets/Navin.jpeg';
+import Shubham from '../assets/Shubham.jpeg';
 
 import '../styles/About.css';
 
@@ -52,27 +54,27 @@ function About() {
           <div className="team-cards">
             <div className="team-card">
               <div className="team-avatar-wrapper">
-                <img className="team-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Robert Anderson" />
+                <img className="team-avatar" src={Atharva} alt="Atharva" />
               </div>
-              <div className="team-name">Robert Anderson</div>
+              <div className="team-name">Atharva</div>
               <div className="team-role">Chief Executive Officer</div>
-              <div className="team-exp">20+ years of experience in renewable energy sector</div>
+              <div className="team-exp">15+ years of experience in renewable energy sector</div>
             </div>
             <div className="team-card">
               <div className="team-avatar-wrapper">
-                <img className="team-avatar" src="https://randomuser.me/api/portraits/men/33.jpg" alt="Robert Anderson" />
+                <img className="team-avatar" src={Navin} alt="Navin" />
               </div>
-              <div className="team-name">Robert Anderson</div>
+              <div className="team-name">Navin</div>
               <div className="team-role">Chief Technology Officer</div>
-              <div className="team-exp">20+ years of experience in renewable energy sector</div>
+              <div className="team-exp">12+ years of experience in solar technology</div>
             </div>
             <div className="team-card">
               <div className="team-avatar-wrapper">
-                <img className="team-avatar" src="https://randomuser.me/api/portraits/men/34.jpg" alt="Robert Anderson" />
+                <img className="team-avatar" src={Shubham} alt="Shubham" />
               </div>
-              <div className="team-name">Robert Anderson</div>
-              <div className="team-role">Chief Operations Officerttt</div>
-              <div className="team-exp">18+ years in operations management</div>
+              <div className="team-name">Shubham</div>
+              <div className="team-role">Chief Operations Officer</div>
+              <div className="team-exp">10+ years in operations management</div>
             </div>
           </div>
         </div>

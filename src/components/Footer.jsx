@@ -4,26 +4,10 @@ import logo from '../assets/logo.png';
 import { useInView } from '../hooks/useInView';
 
 export default function Footer() {
-  const [ctaRef, ctaInView] = useInView({ threshold: 0.2 });
+
   return (
     <>
 {/* CTA Section */}
-<section ref={ctaRef} className={`cta-section fade-section${ctaInView ? ' animate-in' : ''}`}>
-<div className="cta-container">
-  <h2 className="cta-title">Ready to Harness the Power of the Sun?</h2>
-  <p className="cta-subtitle">
-    Join thousands of satisfied customers who have made the switch to clean, renewable solar energy with Reliant Renewables.
-  </p>
-  <div className="cta-btns">
-    <Link to="/contact">
-      <button className="cta-btn cta-btn-primary">Get a Free Consultation</button>
-    </Link>
-    <Link to="/calculator">
-      <button className="cta-btn cta-btn-outline">Calculate Your Savings</button>
-    </Link>
-  </div>
-</div>
-</section>
 
 {/* Footer Section */}
 <footer className="footer-section">
