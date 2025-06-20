@@ -29,7 +29,6 @@ export default function Navbar() {
           <Link to="/">HOME</Link>
           <Link to="/about">ABOUT US</Link>
           <Link to="/projects">PROJECTS</Link>
-          <Link to="/news">NEWS</Link>
         </div>
         <div className="nav-buttons nav-desktop">
           <Link to="/calculator" className="calculator-button">
