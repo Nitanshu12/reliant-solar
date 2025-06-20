@@ -12,6 +12,9 @@ import { IoChatboxOutline } from "react-icons/io5";
 import { RiInstallLine } from "react-icons/ri";
 import { IoMdPower } from "react-icons/io";
 import { ImPowerCord } from "react-icons/im";
+import card1 from '../assets/card1.jpg';
+import card2 from '../assets/card2.jpg';
+import card3 from '../assets/card3.jpg';
 
 
 function Home() {
@@ -156,17 +159,17 @@ function Home() {
           <div className="projects-cards">
             {[
               {
-                img: 'https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?auto=format&fit=crop&w=600&q=80',
+                img:card1,
                 name: 'Ravet – 200 kW',
                 desc: 'Premium residential society solarization project underway with long-term savings and centralized monitoring.'
               },
               {
-                img: 'https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=600&q=80',
+                img: card2,
                 name: 'Lohegaon – 180 kW',
                 desc: 'A high-capacity rooftop solar system being installed for a mid-rise gated community with 24/7 uptime tracking.'
               },
               {
-                img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+                img: card3,
                 name: 'Dighi – 95 kW',
                 desc: 'Mid-scale Residencial Housing Society solar integration, engineered for performance and sustainability.'
               }
