@@ -15,7 +15,7 @@ import { ImPowerCord } from "react-icons/im";
 import card1 from '../assets/card1.jpg';
 import card2 from '../assets/card2.jpg';
 import card3 from '../assets/card3.jpg';
-
+import Seo from '../components/Seo';
 
 function Home() {
   // Hero Section
@@ -37,6 +37,12 @@ function Home() {
 
   return (
     <>
+      <Seo
+        title="Home | Reliant Renewables - Zero Capex Solar Company"
+        description="Empowering India with rooftop solar solutions at zero upfront cost. Trusted solar EPC company across Pune and beyond."
+        keywords="Solar, Rooftop Solar, Zero Capex Solar, Solar Company India, Reliant Renewables"
+        canonical="https://reliantrenewables.in/"
+      />
       <section ref={heroRef} className={`hero-section fade-section${heroInView ? ' animate-in' : ''}`}>
         <div className="hero-overlay" />
         <div className="hero-content">
@@ -121,7 +127,7 @@ function Home() {
                 {['Consultation', 'Design', 'Installation', 'Activation'].map((step, i) => (
                   <div key={step} className="process-step fade-section animate-in">
                     <div className="process-icon-circle">
-                      {i===0 && (
+                      {i === 0 && (
                         <IoChatboxOutline color='white' strokeWidth={7} />
                       )}
                       {i === 1 && (
@@ -159,7 +165,7 @@ function Home() {
           <div className="projects-cards">
             {[
               {
-                img:card1,
+                img: card1,
                 name: 'Ravet – 200 kW',
                 desc: 'Premium residential society solarization project underway with long-term savings and centralized monitoring.'
               },

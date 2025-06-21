@@ -3,7 +3,7 @@ import { useInView } from '../hooks/useInView';
 import Atharva from '../assets/Athrava.jpeg';
 import Navin from '../assets/Navin.jpeg';
 import Shubham from '../assets/Shubham.jpeg';
-
+import Seo from '../components/Seo';
 import '../styles/About.css';
 
 function About() {
@@ -13,6 +13,12 @@ function About() {
 
   return (
     <>
+      <Seo
+        title="About Us | Reliant Renewables"
+        description="Discover the mission, vision, and values of Reliant Renewables, India's trusted partner in sustainable solar energy."
+        keywords="About Reliant, Solar Company, Green Energy, Zero Capex, Solar EPC"
+        canonical="https://reliantrenewables.in/about"
+      />
       {/* Hero Section */}
       <section ref={heroRef} className={`about-hero-section fade-section${heroInView ? ' animate-in' : ''}`}>
         <div className="about-hero-bg" />

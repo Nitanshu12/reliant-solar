@@ -6,6 +6,7 @@ import card3 from '../assets/card3.jpg';
 import card4 from '../assets/card4.png';
 import card5 from '../assets/card5.jpeg';
 import card6 from '../assets/card6.png';
+import Seo from '../components/Seo';
 
 const projects = [
   {
@@ -47,6 +48,12 @@ const pastProjects = [
 function Projects() {
   return (
     <div className="projects-page">
+      <Seo
+        title="Projects | Reliant Renewables"
+        description="Explore our portfolio of successful solar installations and ongoing projects. Each project highlights our commitment to reliability and renewable energy innovation."
+        keywords="Solar Projects, Solar Installations, Reliant Renewables"
+        canonical="https://reliantrenewables.in/projects"
+      />
       {/* Hero Section */}
       <section className="projects-hero-section">
         <div className="projects-hero-bg" />
