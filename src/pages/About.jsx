@@ -64,7 +64,7 @@ function About() {
               </div>
               <div className="team-name">Atharva</div>
               <div className="team-role">Chief Executive Officer</div>
-              <div className="team-exp">15+ years of experience in renewable energy sector</div>
+              <div className="team-exp">5+ years of experience in renewable energy sector</div>
             </div>
             <div className="team-card">
               <div className="team-avatar-wrapper">
