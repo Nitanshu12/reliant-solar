@@ -41,12 +41,10 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         <div className={`navbar-mobile-menu${menuOpen ? ' open' : ''}`}>
-          <div className="nav-center nav-mobile">
+          <div className="nav-mobile-links">
             <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)}>About us</Link>
             <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
-          </div>
-          <div className="nav-buttons nav-mobile">
             <Link to="/calculator" className="calculator-button" onClick={() => setMenuOpen(false)}>
               Calculator
             </Link>

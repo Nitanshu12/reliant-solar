@@ -57,3 +57,17 @@ body {
     padding: var(--spacing-2xl) 0;
   }
 }
+
+@media (max-width: 900px) {
+  .main-content {
+    padding-top: 60px;
+  }
+
+  .page-container {
+    min-height: calc(100vh - 60px);
+  }
+
+  .section {
+    padding: var(--spacing-2xl) 0;
+  }
+}

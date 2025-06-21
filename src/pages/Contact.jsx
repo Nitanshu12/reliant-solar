@@ -50,9 +50,9 @@ function Contact() {
               <div className="contact-info-item">
                 <FaMapMarkerAlt className="contact-info-icon" />
                 <div>
-                  <strong>Head Office</strong><br />
-                  456 Solar Park Drive<br />
-                  Dallas, TX 75201, USA<br />
+                  <strong>Near Unity Paradise, Sector 10, Opp Spine Road Mall</strong><br />
+                  MIDC, Bhosari,<br />
+                  Pune, Maharashtra 411026<br />
                   <a href="https://maps.google.com/?q=456+Solar+Park+Drive+Dallas+TX+75201" target="_blank" rel="noopener noreferrer" className="contact-info-link">View on Map</a>
                 </div>
               </div>
@@ -60,14 +60,14 @@ function Contact() {
                 <FaEnvelope className="contact-info-icon" />
                 <div>
                   <strong>Email</strong><br />
-                  <a href="mailto:support@reliantrenewables.com" className="contact-info-link">support@reliantrenewables.com</a>
+                  <a href="reliantrenewables04@gmail.com" className="contact-info-link">support@reliantrenewables.com</a>
                 </div>
               </div>
               <div className="contact-info-item">
                 <FaPhone className="contact-info-icon" />
                 <div>
                   <strong>Phone</strong><br />
-                  <a href="tel:+18001234567" className="contact-info-link">+1 (800) 123-4567</a>
+                  <a href="tel:+91 9075115354" className="contact-info-link">+91 9075115354</a>
                 </div>
               </div>
               <div className="contact-info-item">
@@ -75,9 +75,9 @@ function Contact() {
                 <div>
                   <strong>Useful Links</strong>
                   <ul className="contact-info-links-list">
-                    <li><a href="/faqs" className="contact-info-link">FAQs</a></li>
+                    <li><a href="/about" className="contact-info-link">About Us</a></li>
                     <li><a href="/projects" className="contact-info-link">Project Portfolio</a></li>
-                    <li><a href="/careers" className="contact-info-link">Careers at Reliant</a></li>
+                    <li><a href="/linkedIn" className="contact-info-link">Linkedin</a></li>
                     <li><a href="/sustainability" className="contact-info-link">Sustainability Reports</a></li>
                   </ul>
                 </div>
@@ -97,8 +97,9 @@ function Contact() {
         {/* Map Section */}
         <div className="contact-map-section">
           <div className="contact-map-container">
-            {/* Replace with actual map embed if needed */}
-            <div className="contact-map-placeholder">Insert a map here</div>
+            <div className="contact-map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3023274500815!2d73.83475967540922!3d18.650424565194445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9fa09779773%3A0xca5d0b979f59d008!2sReliant%20Renewables%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1750482233500!5m2!1sen!2sin" width="300" height="50" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </section>

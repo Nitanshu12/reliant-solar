@@ -154,6 +154,12 @@
 }
 
 @media (max-width: 900px) {
+  .navbar{
+    height: 60px;
+  }
+  .navbar-logo img {
+    height: 60px;
+  }
   .nav-desktop {
     display: none !important;
   }
@@ -162,5 +168,18 @@
   }
   .navbar-hamburger {
     display: flex;
+  }
+  .nav-mobile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .nav-mobile-links .calculator-button,
+  .nav-mobile-links .contact-button {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 1rem;
   }
 }

@@ -115,6 +115,49 @@ section {
   }
 }
 
+@media (max-width: 480px) {
+  :root {
+    --text-4xl: 40px;
+    --text-3xl: 32px;
+    --text-2xl: 24px;
+    --text-xl: 20px;
+    --text-base: 14px;
+  }
+
+  section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .container {
+    padding: 0 var(--spacing-xs);
+  }
+}
+
+/* Additional responsive utilities */
+@media (max-width: 768px) {
+  .text-center-mobile {
+    text-align: center;
+  }
+  
+  .hide-mobile {
+    display: none !important;
+  }
+  
+  .show-mobile {
+    display: block !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .hide-desktop {
+    display: none !important;
+  }
+  
+  .show-desktop {
+    display: block !important;
+  }
+}
+
 /* Utility Classes */
 .text-gradient {
   background: linear-gradient(45deg, #2563eb, #3b82f6);
