@@ -97,7 +97,7 @@ function Home() {
           <div className="about-content">
             <h2 className="about-title">About Reliant Renewables</h2>
             <p className="about-desc">
-              Founded in 2015, Reliant Renewables has been at the forefront of solar energy innovation, helping homeowners and businesses transition to clean, renewable power sources.
+              Founded in 2020, Reliant Renewables has been at the forefront of solar energy innovation, helping homeowners and businesses transition to clean, renewable power sources.
             </p>
             <p className="about-desc">
               Our team of certified experts brings decades of combined experience in renewable energy solutions, ensuring every project is completed to the highest standards.

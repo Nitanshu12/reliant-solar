@@ -148,7 +148,7 @@
 .navbar-mobile-menu .nav-center,
 .navbar-mobile-menu .nav-buttons {
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.5rem;
   width: 100%;
   align-items: flex-start;
 }
