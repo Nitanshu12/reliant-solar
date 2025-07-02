@@ -68,7 +68,7 @@ function Contact() {
                   <FaEnvelope className="contact-info-icon" />
                   <div>
                     <strong>Email</strong><br />
-                    <a href="reliantrenewables04@gmail.com" className="contact-info-link">support@reliantrenewables.com</a>
+                    <a href="reliantrenewables04@gmail.com" className="contact-info-link">reliantrenewables04@gmail.com</a>
                   </div>
                 </div>
                 <div className="contact-info-item">
@@ -93,9 +93,8 @@ function Contact() {
                 <div className="contact-info-item">
                   <div className="contact-info-social-label"><strong>Connect with Us</strong></div>
                   <div className="contact-info-socials">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="contact-info-social"><FaLinkedin /></a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="contact-info-social"><FaTwitter /></a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="contact-info-social"><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/company/reliant-renewables-pvt-ltd" target="_blank" rel="noopener noreferrer" className="contact-info-social"><FaLinkedin /></a>
+                    <a href="https://www.instagram.com/reliantrenewables/" target="_blank" rel="noopener noreferrer" className="contact-info-social"><FaInstagram /></a>
                   </div>
                 </div>
               </div>

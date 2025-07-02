@@ -2,6 +2,7 @@ import '../styles/Footer.css';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { useInView } from '../hooks/useInView';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 
 export default function Footer() {
 
@@ -38,11 +39,22 @@ export default function Footer() {
     </div>
     <div className="footer-col">
       <div className="footer-col-title">Contact us</div>
-      <a href="#">Home</a>
-      <a href="#">About Us</a>
-      <a href="#">Projects</a>
-      <a href="#">Solar Calculator</a>
-      <a href="#">Contact Us</a>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+          <FaMapMarkerAlt style={{ marginRight: '10px' }} />
+          123 Solar Way, San Francisco, CA 94103
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+          <FaPhoneAlt style={{ marginRight: '10px' }} />
+          (555) 123-4567
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
+          <FaEnvelope style={{ marginRight: '10px', width: '40px', height: '40px' }} />
+          info@reliantrenewables.com
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <FaClock style={{ marginRight: '10px' }} />
+          Mon-Fri: 8AM-6PM
+        </div>
     </div>
   </div>
 </div>

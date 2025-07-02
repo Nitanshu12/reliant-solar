@@ -152,6 +152,7 @@
     align-items: center;
     gap: 1.2rem;
     min-width: 260px;
+    flex:1.2;
   }
   .footer-logo {
     height: 60px;
@@ -164,7 +165,7 @@
   }
   .footer-brand-tag {
     font-size: 1rem;
-    color: #e0e0e0;
+    color: #fff;
   }
   .footer-links {
     display: flex;
@@ -174,8 +175,9 @@
   .footer-col {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    min-width: 150px;
+    gap: 0.5rem;
+    min-width: 200px;
+    flex:1;
   }
   .footer-col-title {
     font-size: 1.08rem;
@@ -184,7 +186,7 @@
     color: #fff;
   }
   .footer-col a {
-    color: #e0e0e0;
+    color: #fff;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.2s;
