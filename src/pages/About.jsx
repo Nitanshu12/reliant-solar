@@ -60,9 +60,9 @@ function About() {
           <div className="team-cards">
             <div className="team-card">
               <div className="team-avatar-wrapper">
-                <img className="team-avatar" src={Atharva} alt="Atharva" />
+                <img className="team-avatar avatar-athrava" src={Atharva} alt="Atharva ChandraKant Devkar" />
               </div>
-              <div className="team-name">Atharva</div>
+              <div className="team-name">Atharva ChandraKant Devkar</div>
               <div className="team-role">Chief Executive Officer</div>
               <div className="team-exp">5+ years of experience in renewable energy sector</div>
             </div>
@@ -70,7 +70,7 @@ function About() {
               <div className="team-avatar-wrapper">
                 <img className="team-avatar" src={Navin} alt="Navin" />
               </div>
-              <div className="team-name">Navin</div>
+              <div className="team-name">Navin Singh</div>
               <div className="team-role">Chief Technology Officer</div>
               <div className="team-exp">12+ years of experience in solar technology</div>
             </div>
@@ -78,7 +78,7 @@ function About() {
               <div className="team-avatar-wrapper">
                 <img className="team-avatar" src={Shubham} alt="Shubham" />
               </div>
-              <div className="team-name">Shubham</div>
+              <div className="team-name">Shubham Borhade</div>
               <div className="team-role">Chief Operations Officer</div>
               <div className="team-exp">10+ years in operations management</div>
             </div>
