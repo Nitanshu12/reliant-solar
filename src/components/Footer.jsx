@@ -33,7 +33,6 @@ export default function Footer() {
       <div className="footer-col-title">Our Services</div>
       <a href="#">Residential Solar</a>
       <a href="#">Commercial Solar</a>
-      <a href="#">Solar Battery Storage</a>
       <a href="#">Solar Maintenance</a>
       <a href="#">Energy Consulting</a>
     </div>
@@ -41,19 +40,19 @@ export default function Footer() {
       <div className="footer-col-title">Contact us</div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
           <FaMapMarkerAlt style={{ marginRight: '10px' }} />
-          123 Solar Way, San Francisco, CA 94103
+          Bhosari, Pune, Maharashtra
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
           <FaPhoneAlt style={{ marginRight: '10px' }} />
-          (555) 123-4567
+          +91 9075115354
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
-          <FaEnvelope style={{ marginRight: '10px', width: '40px', height: '40px' }} />
-          info@reliantrenewables.com
+          <FaEnvelope style={{ marginRight:'10px'}}/>
+          reliantrenewables04@gmail.com
         </div>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <FaClock style={{ marginRight: '10px' }} />
-          Mon-Fri: 8AM-6PM
+          <FaClock style={{ marginRight: '10px', color: 'white' }} />
+          Mon-Fri: 8AM-9PM
         </div>
     </div>
   </div>

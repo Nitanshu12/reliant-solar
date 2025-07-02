@@ -85,7 +85,7 @@ function Contact() {
                     <ul className="contact-info-links-list">
                       <li><a href="/about" className="contact-info-link">About Us</a></li>
                       <li><a href="/projects" className="contact-info-link">Project Portfolio</a></li>
-                      <li><a href="/linkedIn" className="contact-info-link">Linkedin</a></li>
+                      <li><a href="https://www.linkedin.com/company/reliant-renewables-pvt-ltd" className="contact-info-link">Linkedin</a></li>
                       <li><a href="/sustainability" className="contact-info-link">Sustainability Reports</a></li>
                     </ul>
                   </div>

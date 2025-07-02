@@ -176,8 +176,14 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    min-width: 200px;
-    flex:1;
+    flex: 1 1 220px;     /* 👈 Best practice: try to be 220px wide, but can shrink/grow */
+    min-width: 200px;    /* 👈 Never get skinnier than this! Keeps text/icons visible */
+    max-width: 300px;    /* 👈 Never get too wide on large screens */
+  }
+  .footer-contact {
+    flex: 2 1 280px;
+    min-width: 180px;
+    max-width: 300px;
   }
   .footer-col-title {
     font-size: 1.08rem;
