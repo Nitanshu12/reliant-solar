@@ -36,7 +36,7 @@ export default function Footer() {
       <a href="#">Solar Maintenance</a>
       <a href="#">Energy Consulting</a>
     </div>
-    <div className="footer-col">
+    <div className="footer-col footer-contact">
       <div className="footer-col-title">Contact us</div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '8px' }}>
           <FaMapMarkerAlt style={{ marginRight: '10px' }} />
