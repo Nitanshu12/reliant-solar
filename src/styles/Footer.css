@@ -141,7 +141,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-between;
     gap: 2.5rem;
@@ -170,19 +170,19 @@
   .footer-links {
     display: flex;
     gap: 3rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .footer-col {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    flex: 1 1 220px;     /* 👈 Best practice: try to be 220px wide, but can shrink/grow */
-    min-width: 200px;    /* 👈 Never get skinnier than this! Keeps text/icons visible */
-    max-width: 300px;    /* 👈 Never get too wide on large screens */
+    flex: 1 1 180px;             /* 👈 Grows/shrinks but not too wide */
+    min-width: 140px;            /* 👈 Allow skinnier, more flexible on desktop */
+    max-width: 180px;    /* 👈 Never get too wide on large screens */
   }
   .footer-contact {
-    flex: 2 1 280px;
-    min-width: 180px;
+    flex: 1 1 240px;             /* 👈 Matches other columns for evenness */
+    min-width: 140px;
     max-width: 300px;
   }
   .footer-col-title {
