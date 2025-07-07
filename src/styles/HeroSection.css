@@ -378,7 +378,7 @@
 
 /* About Section */
 .about-section {
-  background: #e5e5e5;
+  background: #e3d8b35c;
   width: 100%;
   padding: 3.5rem 0;
 }
@@ -954,7 +954,7 @@
   margin-bottom: 2.5rem;
 }
 .testimonial-card {
-  background: #e5e5e5;
+  background: #e3d8b35c;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   flex: 1 1 420px;
